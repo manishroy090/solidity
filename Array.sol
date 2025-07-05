@@ -38,8 +38,6 @@ contract Array {
 
 
       function remove(uint index) public {
-
-
         // Delete does not chnage the array length
        //It reset the value  at index  to its  defalut values
       // in this case 0  
@@ -54,9 +52,7 @@ contract Array {
 
       function examples ( ) external  {
 
-
         //create array in memory  only fixed size can be created
-
         uint[] memory a =  new uint[](5);
       }
 
