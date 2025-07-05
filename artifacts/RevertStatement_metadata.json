@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "checkOverFlow",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RevertStatement.sol": "RevertStatement"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RevertStatement.sol": {
+			"keccak256": "0x914399032ffb732a78a51cea1ff86b976e4def1e59fdda6b9c493e5295ab94f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7902e3ee277b61c11dc7fab67d34f14fdb0295b055509a03ed058af8be0c9def",
+				"dweb:/ipfs/QmPZPKbkLXvXFJz2umXzpdvKq1QH7rHvuJYGVvtbb826RX"
+			]
+		}
+	},
+	"version": 1
+}
