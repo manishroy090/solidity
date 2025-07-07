@@ -42,7 +42,7 @@ contract Array {
        //It reset the value  at index  to its  defalut values
       // in this case 0  
 
-
+           delete   arr[index];
 
 
 
